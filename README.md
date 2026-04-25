@@ -1,45 +1,47 @@
-# Library Management System 
-# Library Management System (Java)
+# Library Management System (Java + MySQL)
 
 ## 📌 Description
 
-This project is a console-based Library Management System developed using Core Java. It is designed to manage library operations such as maintaining book records, issuing and returning books, and handling user details efficiently.
+This project is a console-based Library Management System developed using Core Java with MySQL database integration. It is designed to manage library operations such as storing book records, issuing and returning books, and maintaining user details persistently using a relational database.
 
 ## 🚀 Features
 
-* Add, update, and delete book records
-* Issue and return books
-* Maintain user information
-* Search for books
+* Add, update, and delete book records (stored in MySQL)
+* Issue and return books with database updates
+* Maintain user records
+* Retrieve and display data using SQL queries
 * Menu-driven console interface
 
 ## 🛠️ Tech Stack
 
 * Java (Core Java)
-* Object-Oriented Programming (OOP)
+* MySQL Database
+* JDBC (Java Database Connectivity)
 
 ## 💡 Concepts Used
 
-* Encapsulation and modular design
-* Classes and objects
-* Data structures (Lists/Collections)
+* Object-Oriented Programming (OOP)
+* JDBC for database connectivity
+* SQL queries (CRUD operations)
 * Exception handling
-* Basic input/output handling
+* Data persistence
+
+## 🗄️ Database Details
+
+* Tables created for books and users
+* Used SQL operations: INSERT, SELECT, UPDATE, DELETE
+* Maintained relationships and data consistency
 
 ## ▶️ How to Run
 
-1. Clone the repository:
-   git clone https://github.com/Divyasri-KS/Mini_project_java.git
-
-2. Open the project in Eclipse / IntelliJ IDEA
-
-3. Navigate to the main class file
-
-4. Run the program
+1. Clone the repository
+2. Set up MySQL and create required database/tables
+3. Update database credentials in the code
+4. Run the main Java file
 
 ## 📷 Sample Output
 
-(You can add screenshots here if available)
+(Add screenshots if available)
 
 ## 👩‍💻 Author
 
